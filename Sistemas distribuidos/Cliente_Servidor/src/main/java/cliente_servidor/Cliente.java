@@ -8,10 +8,6 @@ import java.util.Vector;
 import javax.swing.JOptionPane;
 import org.apache.xmlrpc.XmlRpcClient;
 
-/**
- *
- * @author jonas
- */
 public class Cliente {
 
     public static void main(String[] args) {
