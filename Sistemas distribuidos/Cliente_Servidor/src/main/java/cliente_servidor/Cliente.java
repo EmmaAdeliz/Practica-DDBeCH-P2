@@ -11,7 +11,7 @@ import org.apache.xmlrpc.XmlRpcClient;
 public class Cliente {
 
     public static void main(String[] args) {
-        //Declaramos dos variables de tipo strin ya que los recibe
+        //Declaramos dos variables de tipo string ya que los recibe
         String x="", y="";
         
         //Creamos un objeto donde almacenara los resultados de la infección 
