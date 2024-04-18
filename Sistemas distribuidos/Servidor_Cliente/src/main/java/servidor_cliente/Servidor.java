@@ -10,10 +10,6 @@ import org.apache.xmlrpc.WebServer;
 
 //import org.apache.xmlrcp.WebServer;
 
-/**
- *
- * @author jonas
- */
 public class Servidor {
     
     public static void main (String[] args){
@@ -25,7 +21,7 @@ public class Servidor {
             //Creamos un objeto de tipo weserver
             WebServer server = new WebServer(8080);
             
-            //Hacemos una relacion con nuestra parte simuladorInfección
+            //Hacemos una relacion con nuestra parte simuladorInfecciÃ³n
             SimuladorInfeccion simuladorinfecion = new SimuladorInfeccion();
             
             //A que servidor se va conectar y creamos el servidor y enviamos al metodo
@@ -39,7 +35,7 @@ public class Servidor {
             
         } catch (Exception e){
             //En caso que no se conecte el servidor se envia un mensaje y lo concatenamos con el e
-            JOptionPane.showMessageDialog(null, "Erro de conexión" + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro de conexiÃ³n" + e.getMessage());
         }
     }
     
