@@ -34,8 +34,8 @@ public class Servidor {
             JOptionPane.showMessageDialog(null, "Servidor en linea");
             
         } catch (Exception e){
-            //En caso que no se conecte el servidor se envia un mensaje y lo concatenamos con el e
-            JOptionPane.showMessageDialog(null, "Erro de conexión" + e.getMessage());
+            //En caso que no se conecte el servidor se envia un mensaje y lo conectamos con el e
+            JOptionPane.showMessageDialog(null, "Error de conexión" + e.getMessage());
         }
     }
     
